@@ -1,11 +1,16 @@
 # Demonstrations Deploying WordPress on Google Cloud Platform using Infrastructure as Code
-Code examples to accompany the Cloud Academy course: "Managing Infrastructure as Code on Google Cloud Platform"
+Code used in the Cloud Academy course "Managing Infrastructure as Code on Google Cloud Platform"
 
-## This repository includes code that demonstrates:
-* Building a custom WordPress Docker container image using Google Cloud Build.
-* Building a WordPress virtual machine image for Google Compute Engine using Packer with Google Cloud Build.
-* Creating a GKE cluster with Deployment Manager, then deploying WordPress on the cluster using Helm.
-* Deploying infrastructure for a WordPress server on GCP using Terraform and the Terraform Registry.
+## Special Notice
+This repo is provided as a courtesy to advanced learners who want access to the full code.  It is neither required nor expected for the student to attempt to build and deploy these solutions as part of the course.
+
+No step-by-step instructions are included.  You need to know how to build and deploy Docker containers on GCP, as well as how to create Cloud Build triggers.
+
+## This repository includes code for:
+* Building a custom WordPress Docker container image using Google Cloud Build
+* Building a WordPress virtual machine image for Google Compute Engine using Packer with Google Cloud Build
+* Creating a GKE cluster with Deployment Manager, then deploying WordPress on the cluster using Helm
+* Deploying infrastructure for a WordPress server on GCP using Terraform and the Terraform Registry
 
 *This repository and its demonstrations utilize the following Google Cloud services and APIs:*
 * [Google Compute Engine](https://console.cloud.google.com/apis/library/compute.googleapis.com)
