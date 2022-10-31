@@ -1,6 +1,6 @@
 {
     "files.eol": "\n",
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.defaultProfile.windows": "Git bash",
     "terminal.integrated.automationProfile.windows": null,
     "terminal.integrated.confirmOnExit": "always",
     "terminal.integrated.copyOnSelection": true,
